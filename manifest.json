@@ -756,14 +756,14 @@
       }
     },
     "ganttrify": {
-      "Source": "https://giocomai.r-universe.dev",
+      "Source": "github",
       "Repository": null,
       "description": {
         "Package": "ganttrify",
         "Title": "Create beautiful Gantt charts with ggplot2",
         "Version": "0.0.1.9007",
         "Authors@R": "\n    person(given = \"Giorgio\",\n           family = \"Comai (OBCT/CCI)\",\n           role = c(\"aut\", \"cre\"),\n           email = \"g@giorgiocomai.eu\",\n           comment = c(ORCID = \"0000-0002-0515-9542\"))",
-        "Description": "'ganttrify' facilitates the creation of nice-looking Gantt\n        charts, commonly used in project proposals and project\n        management.",
+        "Description": "'ganttrify' facilitates the creation of nice-looking Gantt charts, commonly used in project proposals and project management.",
         "License": "GPL (>= 3)",
         "Encoding": "UTF-8",
         "LazyData": "true",
@@ -775,17 +775,21 @@
         "Suggests": "extrafont, testthat (>= 3.0.0)",
         "Depends": "R (>= 2.10)",
         "Config/testthat/edition": "3",
-        "Config/pak/sysreqs": "libicu-dev libjpeg-dev libpng-dev libxml2-dev\nlibssl-dev",
-        "Repository": "https://giocomai.r-universe.dev",
-        "Date/Publication": "2025-10-21 20:04:21 UTC",
-        "RemoteUrl": "https://github.com/giocomai/ganttrify",
+        "RemoteType": "github",
+        "RemoteHost": "api.github.com",
+        "RemoteRepo": "ganttrify",
+        "RemoteUsername": "giocomai",
         "RemoteRef": "HEAD",
         "RemoteSha": "e5d459c16c740abb24c0a65252f6b3c5b8b9e60d",
+        "GithubRepo": "ganttrify",
+        "GithubUsername": "giocomai",
+        "GithubRef": "HEAD",
+        "GithubSHA1": "e5d459c16c740abb24c0a65252f6b3c5b8b9e60d",
         "NeedsCompilation": "no",
-        "Packaged": "2026-09-16 07:54:23 UTC; root",
+        "Packaged": "2026-09-23 03:48:40 UTC; shihsinhong",
         "Author": "Giorgio Comai (OBCT/CCI) [aut, cre] (ORCID:\n    <https://orcid.org/0000-0002-0515-9542>)",
         "Maintainer": "Giorgio Comai (OBCT/CCI) <g@giorgiocomai.eu>",
-        "Built": "R 4.5.3; ; 2026-09-16 08:15:07 UTC; unix"
+        "Built": "R 4.5.3; ; 2026-09-23 03:48:40 UTC; unix"
       }
     },
     "generics": {
@@ -2877,13 +2881,13 @@
       "checksum": "96d2374d0f87d74c095c6374c397027e"
     },
     "README.md": {
-      "checksum": "4f395f5a46845e134c376d13b94fef2c"
+      "checksum": "33f44b36e8f99369362574b4e4d26997"
     },
     "server.R": {
       "checksum": "3f45f4e30f3b3b784519d68623aee28d"
     },
     "tests/testthat/test-deployment.R": {
-      "checksum": "3d3e4674af32618eff8c6d79fa7e2e28"
+      "checksum": "17b9b57d677c8684cefa4ce18461e462"
     },
     "tests/testthat/test-ganttrify.R": {
       "checksum": "108cb5704c5fa6a9ec5fe4557c5c454f"

@@ -9,5 +9,8 @@ test_that("Connect Cloud deployment manifest is present and records the app depe
   if (file.exists(manifest_path)) {
     manifest <- jsonlite::fromJSON(manifest_path, simplifyVector = FALSE)
     expect_true(all(c("shiny", "ganttrify", "MetBrewer", "readxl") %in% names(manifest$packages)))
+    expect_identical(manifest$packages$ganttrify$Source, "github")
+    expect_identical(manifest$packages$ganttrify$description$RemoteUsername, "giocomai")
+    expect_identical(manifest$packages$ganttrify$description$RemoteRepo, "ganttrify")
   }
 })

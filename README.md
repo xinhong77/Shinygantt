@@ -25,7 +25,7 @@ Biomedical research frequently involves complex genomic, transcriptomic, proteom
 From R, run:
 
 ```r
-shiny::runApp("/Users/shihsinhong/Github/GanttStudio")
+shiny::runApp()
 ```
 
 ## Excel formats

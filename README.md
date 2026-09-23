@@ -2,6 +2,10 @@
 
 Shinygantt is a small example of how an R-based visualization workflow can be transformed from code into an interactive graphical user interface. It creates clear Gantt charts from Excel schedules without requiring users to write R code.
 
+## Live demo
+
+Try the deployed application here: [Open Shinygantt](https://01a0cc62-dd4e-09eb-da14-0b1d9c01126e.share.connect.posit.cloud/).
+
 ![From R code to an interactive biomedical research visualization](www/images/r-to-shinygantt-workflow.png)
 
 ## From R code to a graphical interface
@@ -58,4 +62,3 @@ Example files are available in [`Excel/`](Excel/).
 - `ggplot2` for the underlying plotting system.
 - `MetBrewer` for colour palettes.
 - `readxl` for reading uploaded Excel files.
-
